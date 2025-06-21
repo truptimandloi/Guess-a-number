@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    color: rgb(238, 9, 59);
+    text-align: center;
+    font-weight: bolder;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+    margin-top: 30px;
+  font-size: 2.5em;
+    
+}
+
+h1:hover{
+    color: yellow;
+  }
+
+.display{
+    height: 60px;
+    width: 100%;
+    color: black;
+    font-size: 2em;
+       border: none;
+       text-align:center;
+       margin-bottom: 20px;
+       padding: 10px;
+      background-color: white;
+        border-radius: 10px;
+        box-shadow: inset 0 0 5px rgba(0,0,0,0.1);
+}
+button{
+    background-color: rgb(230, 241, 6);
+    color: black;
+    text-align: center;
+    height: 60px;
+    width: 50%;
+    margin-bottom: 20px;
+    margin-left: 160px;
+    padding: 10px;
+     font-size: 1.3em;
+     border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      cursor: pointer;
+}
+
+button:hover {
+    background-color: #1a9801;
+  }
+
+#output{
+    border-color: green;
+      font-size: 1.3em;
+    border-style: solid;
+    background-color: black;
+    color: rgb(245, 225, 6);
+     text-align: center;
+     height: 60px;
+       unicode-bidi: isolate;
+}
+
+#output:hover{
+    color: red;
+    background-color: #0c3507;
+    border-color: #f0ecec;
+  }
+  
